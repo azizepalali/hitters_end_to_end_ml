@@ -371,7 +371,9 @@ np.mean(np.sqrt(-cross_val_score(voting_reg,
                                  cv=10,
                                  scoring="neg_mean_squared_error")))
 
-# 153.54219398316238
+"""
+RMSE = 153.54219398316238
+"""
 
 ######################################################
 # Prediction for a New Observation
@@ -446,12 +448,3 @@ def hitters_data_prep(dataframe):
     return X, y
 
 X, y = hitters_data_prep(df)
-
-
-
-###########################################
-import pickle
-df_prep = hitters_data_prep(df)
-filename= "voting_clf_hitters.pkl"
-pickle.dump(df_prep, open(filename, "wb"))
-
