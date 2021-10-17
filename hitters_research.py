@@ -296,7 +296,7 @@ RMSE: 162.2267 (LightGBM)
 # Automated Hyperparameter Optimization
 ######################################################
 
-cart_params = {'max_depth': range(1, 20),  # ne kadar dallanacak
+cart_params = {'max_depth': range(1, 20),  
                "min_samples_split": range(2, 30)}
 
 rf_params = {"max_depth": [5, 8, 15, None],
