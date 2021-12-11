@@ -6,6 +6,7 @@
 - The salary data were originally from Sports Illustrated,from The 1987 Baseball Encyclopedia Update published by
 - Collier Books, Macmillan Publishing Company, New York.
 
+
 # Variables
 - A data frame with 322 observations of major league players on the following 20 variables.
 - AtBat: Number of times at bat in 1986
